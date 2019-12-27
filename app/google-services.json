@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "273178544173",
+    "firebase_url": "https://ungdungchattructuyen.firebaseio.com",
+    "project_id": "ungdungchattructuyen",
+    "storage_bucket": "ungdungchattructuyen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273178544173:android:bab969441ce0417e10d0a4",
+        "android_client_info": {
+          "package_name": "com.example.ngdngchtruyntrctuyn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273178544173-70brh7bf4u9ftfjsgho41o734ndu5h2j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ngdngchtruyntrctuyn",
+            "certificate_hash": "d08ce31839a24108011fd7b10f6bebf826ed1b61"
+          }
+        },
+        {
+          "client_id": "273178544173-ncbb21g00ov1r3k4krnfmckp6015coc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ_BEXHJ8sHXvvCbEogIy39i5GTFpOSWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273178544173-ncbb21g00ov1r3k4krnfmckp6015coc5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

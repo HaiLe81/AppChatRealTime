@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#31B1DB</color>
+    <color name="colorPrimaryDark">#33ccff</color>
+    <color name="colorAccent">#226e6e</color>
+    <color name="White">#FFFFFF</color>
+    <color name="maumoi">#0000EE</color>
+    <color name="black">#000000</color>
+    <color name="black1">#141414</color>
+    <color name="none00">#0f000000</color>
+    <color name="none0">#1f000000</color>
+    <color name="none01">#2f000000</color>
+    <color name="none1">#3f000000</color>
+    <color name="none11">#4f000000</color>
+    <color name="none12">#5f000000</color>
+    <color name="none13">#6f000000</color>
+    <color name="none2">#7f000000</color>
+    <color name="none21">#8f000000</color>
+    <color name="none22">#9f000000</color>
+    <color name="none3">#000000</color>
+    <color name="yellow">#FFD700</color>
+</resources>

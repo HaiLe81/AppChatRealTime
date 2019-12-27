@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pixel1"
+    android:backgroundTintMode="src_over"
+    android:backgroundTint="@color/none11"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chatapp"
+        android:textSize="50sp"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/White"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/title"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_login"
+        android:textColor="@color/White"
+        android:background="@color/none2"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="30sp"
+        />
+    <Button
+        android:id="@+id/register"
+        android:layout_width="200dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/White"
+        android:layout_height="wrap_content"
+        android:background="@color/none2"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/btn_register"
+        android:textSize="30sp"
+        />
+
+
+</LinearLayout>

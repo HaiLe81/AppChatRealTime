@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg6"
+    android:backgroundTintMode="src_over"
+    android:backgroundTint="@color/none00"
+    tools:context=".RegisterActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"
+        tools:ignore="ResourceCycle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_below="@+id/toolbar">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        android:textColor="@color/White"
+        android:textSize="27sp"
+        android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:layout_marginTop="10dp"
+            app:met_textColor="@color/White"
+            android:textStyle="italic"
+            app:met_floatingLabel="highlight"
+            android:textColor="@color/White"
+            app:met_primaryColor="@color/White"
+            app:met_textColorHint="@color/White"
+            android:hint="Tên Người Dùng"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:layout_marginTop="10dp"
+            android:inputType="textEmailAddress"
+            android:textStyle="italic"
+            app:met_textColor="@color/White"
+            app:met_floatingLabel="highlight"
+            android:textColorHighlight="@color/White"
+            app:met_floatingLabelTextColor="@color/White"
+            app:met_primaryColor="@color/White"
+            app:met_textColorHint="@color/White"
+            android:hint="Địa Chỉ Email"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:inputType="textPassword"
+            app:met_textColor="@color/White"
+            app:met_floatingLabel="highlight"
+            android:textColorHighlight="@color/White"
+            app:met_floatingLabelTextColor="@color/White"
+            app:met_primaryColor="@color/White"
+            app:met_textColorHint="@color/White"
+            android:hint="Mật Khẩu"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:text="@string/btn_register"
+            android:textSize="25sp"
+            android:id="@+id/btn_register"
+            android:background="@color/none2"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

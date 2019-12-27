@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Ứng Dụng Chò Truyện Trực Tuyến'

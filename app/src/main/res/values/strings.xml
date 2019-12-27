@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AppChatRealTime</string>
+    <string name="textview">Tạo Tài Khoản</string>
+    <string name="textview1">Đăng Nhập</string>
+    <string name="btn_register">Đăng Ký</string>
+    <string name="btn_login">Đăng Nhập</string>
+    <string name="chatapp">Ola App</string>
+    <string name="email">Email</string>
+    <string name="login">Ola Nơi Chia Sẽ Yêu Thương</string>
+    <string name="signup">Ola Nơi Kết Nối Triệu Trái Tim !!</string>
+    <string name="message">Im lặng sẽ giết chết mỗi quan hệ chúng ta!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
